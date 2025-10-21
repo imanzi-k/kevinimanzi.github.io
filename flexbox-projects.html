@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!--
+Kevin Imanzi Portfolio - Projects Page
+Lab 5 - Flexbox Layout
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevin Imanzi - Projects</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="flexbox.css">
+</head>
+<body>
+    <header id="header">
+        <h1>Kevin Imanzi</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="flexbox-projects.html" class="active">Projects</a></li> 
+                <li><a href="grid-gallery.html">Gallery</a></li>
+                <li><a href="bootstrap-resume.html">Resume</a></li>
+                 <li><a href="interactive.html">Interactive</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="flex-container">
+        <section class="content-section">
+            <h2 class="section-title">My Projects</h2>
+            <p>Here are some of the projects I've worked on during my academic journey at Algonquin College. Each project has helped me develop my technical skills in programming, problem-solving, and software development.</p>
+        </section>
+
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Cipher Software</h3>
+                <p class="project-description">Designed and developed encryption/decryption software that allows users to secure files and phrases using classical cipher techniques. The application implements both Caesar and Vigenère ciphering methods, demonstrating strong OOP principles including inheritance, polymorphism, abstraction, and encapsulation. Comprehensive testing was performed using JUnit framework to ensure reliability and accuracy.</p>
+                <div class="technologies">
+                    <span class="tech-badge">Java</span>
+                    <span class="tech-badge">OOP</span>
+                    <span class="tech-badge">JUnit Testing</span>
+                    <span class="tech-badge">Encryption</span>
+                </div>
+                <button class="project-button">View Project</button>
+            </div>
+
+            <div class="project-card">
+                <h3>Network Programming Project</h3>
+                <p class="project-description">Developed network applications as part of my Network Programming coursework. This project involved understanding network protocols, socket programming, and client-server architecture. Applied practical networking concepts to create functional communication systems.</p>
+                <div class="technologies">
+                    <span class="tech-badge">Java</span>
+                    <span class="tech-badge">Network Programming</span>
+                    <span class="tech-badge">Protocols</span>
+                </div>
+                <button class="project-button">View Project</button>
+            </div>
+
+            <div class="project-card">
+                <h3>Linux Shell Programming</h3>
+                <p class="project-description">Created various shell scripts and programs in Ubuntu Linux environment as part of Operating System Fundamentals course. Gained hands-on experience with command-line interface, file systems, process management, and shell scripting to automate system tasks.</p>
+                <div class="technologies">
+                    <span class="tech-badge">Ubuntu Linux</span>
+                    <span class="tech-badge">Shell Programming</span>
+                    <span class="tech-badge">Bash</span>
+                </div>
+                <button class="project-button">View Project</button>
+            </div>
+
+            <div class="project-card">
+                <h3>Personal Portfolio Website</h3>
+                <p class="project-description">Developed a responsive multi-page portfolio website showcasing my academic work, projects, and professional experience. Implemented modern web design principles using HTML5, CSS3, Flexbox, CSS Grid, and Bootstrap framework. Demonstrates proficiency in front-end web development and responsive design.</p>
+                <div class="technologies">
+                    <span class="tech-badge">HTML5</span>
+                    <span class="tech-badge">CSS3</span>
+                    <span class="tech-badge">Flexbox</span>
+                    <span class="tech-badge">CSS Grid</span>
+                    <span class="tech-badge">Bootstrap</span>
+                </div>
+                <button class="project-button">View Project</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <h3>Connect With Me</h3>
+        <div class="footer-contact">
+            <p><strong>Email:</strong> iman0018@algonquinlive.com</p>
+            <p><strong>Phone:</strong> +1 (236) 234-4093</p>
+            <p><strong>Location:</strong> Ottawa, Ontario, Canada</p>
+        </div>
+        <p><a href="https://github.com/imanzi-k" target="_blank" rel="noopener noreferrer">GitHub Portfolio</a></p>
+    </footer>
+</body>
+</html>
